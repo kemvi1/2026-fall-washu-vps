@@ -1,0 +1,296 @@
+<head>
+    <style>
+        body {
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+            color: rgb(249, 238, 203);
+            background-color: rgb(48, 115, 183);
+            text-align: center;
+        }
+
+        ul {
+            
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+             letter-spacing: 7px;
+            font-size: 50px;
+            padding: 30px;
+            background-color: rgba(2, 60, 127, 0.5);
+            margin: 10px;
+        }
+        h2{
+             letter-spacing: 7px;
+        }
+       .recommended {
+        display: inline-block;
+     line-height: 1;
+    font-family: Verdana;
+    letter-spacing: 7px;
+
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgb(58, 158, 103) 50%,
+        transparent 100%
+    );
+
+    background-size: 200% 100%;
+    animation: sweep 1.5s infinite;
+
+    transition: transform 0.3s ease;
+}
+
+.recommended:hover {
+    transform: scale(1.3);
+}
+        h3 {
+            
+            line-height: 1;
+            font-size: 20px;
+            letter-spacing: 7px;
+            background-color: rgba(2, 60, 127, 0.5);
+            padding: 30px;
+             margin: 10px;
+            
+           
+        }
+
+        h4 {
+            line-height: 0.5;
+           animation: sweep 0.2s infinite;
+
+    transition: transform 0.2s ease;
+}
+
+h4:hover {
+    transform: scale(1.3);
+}
+        h5 {
+            line-height: 0.5;
+            letter-spacing: 4px;
+            text-indent: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            letter-spacing: 7px;
+        }
+
+        table {
+            width: 400px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid rgb(2, 60, 127, 0.5);
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column
+
+        }
+        .flash-Plan {
+            font-weight: bold;
+            font-family: Verdana;
+            letter-spacing: 7px;
+    animation: blink 1s infinite;
+     transition: transform 0.3s ease;
+        }
+        .flash-Plan:hover {
+    transform: scale(1.3);
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+.flash-highlight {
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgb(58, 158, 103) 50%,
+        transparent 10%
+    );
+
+    background-size: 200% 100%;
+    animation: sweep 1.5s infinite;
+}
+
+@keyframes sweep {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>MILANO KABOB</h1>
+
+    <hr>
+
+    <h4><span>Located at <a href="https://google.com/maps/place/Milano+Kabob/">602 Westgate Ave! 🛣️</span></a></h4>
+
+    <h4><span>Follow us on our<a href="https://www.instagram.com/milanokabob/?hl=en"> Social! 📸</a></span></h4>
+
+    <h4><span>Open every day from 12-10PM! 🕙</h4></span></h4>
+<hr>
+    <h2>Menu</h2>
+    <span class="flash-Plan">(recommended item)</span>
+     <hr>
+<div class="container">
+    <h3><div></div>Appetizers</div></h3><hr>
+     
+    </div>
+    
+<div class="container">
+    <ul>
+        <li>
+            <h5><span><div>hummus</div></span><span>$9</span></h5>
+            <p><i><div>Smooth & creamy chickpea dip</div></i></p>
+        </li>
+
+        <li>
+            <h5><span><div>baba ganoush</div></span><span>$9</span></h5>
+            <p><i><div>Eggplant blended with garlic, tahini, and olive oil</i></p>
+        </li>
+
+        <li>
+            <h5><span><div>6 falafels</div></span><span>$9</span></h5>
+            <p><i><div>Crispy chickpea mix</i></p>
+        </li>
+
+        <li>
+            <h5><span><div>sambosa</div></span><span>$9</span></h5>
+            <p><i><div>Cheese or chicken</i></p>
+        </li>
+
+        <li>
+            <h5><span><div>mixed appetizer combo</div></span><span>$19</span></h5>
+            <p><i><div>1 hummus, 1 baba ganoush, Iraqi salad served with pita bread</i></p>
+        </li>
+
+        <li>
+            <h5><span><div>crispy chicken wings</div></span><span>$16</span></h5>
+            <p><i><div>6 pieces served with seasoned fries</i></p>
+        </li>
+
+        <li>
+            <h5><span><div>jajeek</div></span><span>$9</span></h5>
+        </li>
+    </ul>
+</div>
+    <hr>
+
+    <h3><div>Sandwiches</div></h3><hr>
+
+    <ul>
+        <li><h5><span>Tikka Kabob</span><span>$16</span></h5></li>
+        <li><h5><span>eggplant falafel</span><span>$15</span></h5></li>
+        <li><h5><span>lamb kofta</span><span>$16</span></h5></li>
+        <li><h5><span>chicken tikka</span><span>$15</span></h5></li>
+        <li><h5><span>falafel</span><span>$14</span></h5></li>
+        <li><h5><span>iraqi burger</span><span>$15</span></h5></li>
+    </ul>
+
+    <hr>
+
+    <h3><div>Salads</div></h3><hr>
+
+    <ul>
+        <li><h5><span>eggplant salad</span><span>$10</span></h5></li>
+        <li><h5><span>iraqi salad</span><span>$10</span></h5></li>
+        <li><h5><span>fattoush salad</span><span>$10</span></h5></li>
+        <li><h5><span>garden salad</span><span>$10</span></h5></li>
+    </ul>
+
+    <hr>
+<div class="container">
+    <h3><div>Big Plates</div></h3>
+    </div><hr>
+    <p>Choose rice or fries</p>
+    
+<div class="container">
+    <ul>
+        <li>
+            <h5><span class="flash-Plan">lamb tikka kabob plate</span><span class="flash-Plan">$25</span></h5>
+           
+            <p><i><span><div>2 skewers of lamb cubes</div></span></i></p>
+        </li>
+
+        <li>
+            <h5><span>lamb kofta kabob plate</span><span>$25</span></h5>
+            <p><i><span><div>2 minced lamb skewers</div></span></i></p>
+        </li>
+
+        <li>
+            <h5><span>chicken tikka plate</span><span>$22</span></h5>
+            <p><i><span><div>2 skewers marinated chicken tikka</div></span></i></p>
+        </li>
+
+        <li>
+            <h5><span>mixed kabob plate</span><span>$28</span></h5>
+            <p><i><span><div>3 skewers: lamb kofta, chicken tikka, and tikka kabob</div></span></i></p>
+        </li>
+
+        <li>
+            <h5><span>falafel plate</span><span>$20</span></h5>
+            <p><i><span><div>6 falafels, veggies, and amba sauce</div></span></i></p>
+        </li>
+<div>
+        <li>
+            <h5><span>fasolia plate</span><span>$16</span></h5>
+            <p><i><span><div>White kidney beans in a rich sauce</div></span></i></p>
+        </li>
+    </ul>
+</div>
+    <hr>
+
+    <h3><div>BOWLS</div></h3><hr>
+
+    <table>
+        <tr>
+        
+            <th>6 Falafels</th>
+            <th>Tikka Kabob</th>
+        </tr>
+        <tr>
+            <th>Lamb Kofta</th>
+            <th>Tikka Kabob</th>
+        </tr>
+    </table>
+
+    <ul>
+        <li><h5><span>fattoush salad bowl</span><span>$16</span></h5></li>
+        <li><h5><span>iraqi salad bowl</span><span>$16</span></h5></li>
+        <li><h5><span>eggplant salad bowl</span><span>$16</span></h5></li>
+        <li><h5><span>rice bowl</span><span>$16</span></h5></li>
+        <li><h5><span>hummus bowl</span><span>$16</span></h5></li>
+    </ul>
+
+</body>
+<hr>
+
+<span class="recommended">PLAN YOUR NEXT TRIP!</span>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12462.736103782874!2d-90.3041221!3d38.6561451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df35f59ba75b8f%3A0x84708048e1966f6f!2sMilano%20Kabob!5e0!3m2!1sen!2sus!4v1789612986717!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
